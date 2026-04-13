@@ -31,7 +31,7 @@ const COLORS = {
 };
 
 // 🔴 CHANGE THIS TO YOUR PC IP
-const API_URL = "http://172.34.45.34:8000";
+const DISEASE_API_URL = "http://192.168.1.114:8000";
 
 export default function SkinDiseaseScreen({ navigation }) {
   const [image, setImage] = useState(null);
